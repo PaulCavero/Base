@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Base.Broker\Base.Broker.csproj" />
+    <ProjectReference Include="..\Base.Data\Base.Data.csproj" />
+    <ProjectReference Include="..\Base.Util\Base.Util.csproj" />
+  </ItemGroup>
+
 </Project>
